@@ -1,0 +1,260 @@
+
+.form-container {
+    width: 100%;
+    flex-shrink: 0;
+    box-shadow: 0px 8px 40px rgba(3, 3, 3, 0.08);
+    padding: 20px 40px 20px 40px;
+    
+  }
+  .patient-heading-2{
+    font-size: 1.3rem;
+    /* text-shadow: 0px 1px 2px #475569; Ensures the shadow effect is clear */
+    /* background-color: rgba(0, 0, 0, 0.6); Black with 60% transparency */
+    /* color: #fff; White text for contrast */
+    padding: 6px 20px; /* Add spacing inside the heading */
+    border-radius: 2px; /* Optional rounded corners */
+    display: inline-block; 
+    width: 100%;
+    margin-top: 12px;
+    padding-left: 2px;
+    text-align: center;
+    
+}
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    width: 100%;
+  }
+  
+  .input-label {
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #475569;
+  }
+  
+  .username-input-field {
+    font-size: 14px;
+    height: 20px;
+    border: 1px solid #d7dfe9;
+    background-color: #e2e8f0;
+    color: #333d4c;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+  }  
+  .username-input-field-pain{
+  color: #205093;
+  }
+  .custom-select {
+    width: 100%;
+    color: #205093;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color:   #e2e8f0;
+    color: #333;
+    cursor: pointer;
+  }
+
+
+  .error-text {
+    color: red;
+    font-size: 0.85em;
+    margin-top: 1px;
+    margin-bottom: 0;
+  }
+.checkbox-container{
+    display: flex;
+    
+}
+
+
+/* Container for the checkbox and label */
+.checkbox-container {
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Vertically align label and checkbox */
+    margin-bottom: 10px; /* Spacing between rows */
+  }
+  
+  /* Checkbox styling */
+  .username-input-field-pain {
+    width: 20px; /* Set width for checkbox */
+    height: 20px; /* Set height for checkbox */
+    accent-color: #007bff; /* Modern browsers allow custom checkbox colors */
+    cursor: pointer; /* Add pointer cursor for better UX */
+  }
+  
+  /* Label styling */
+  .checkbox-label {
+    margin-left: 10px; /* Space between checkbox and label */
+    font-size: 16px; /* Font size for label text */
+    color: #333; /* Label text color */
+    cursor: pointer; /* Make the label clickable */
+  }
+  
+  /* Optional: Add hover effect for the label */
+  .checkbox-label:hover {
+    color: #007bff; 
+    font-size: 18px;
+  }
+  
+  /* Container for the checkbox and label */
+.checkbox-container {
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Vertically align label and checkbox */
+    margin-bottom: 10px; /* Spacing between rows */
+  }
+  
+  /* Checkbox styling */
+  .sound-checkbox {
+    width: 20px; /* Set width for checkbox */
+    height: 20px; /* Set height for checkbox */
+    accent-color: #007bff; /* Modern browsers allow custom checkbox colors */
+    cursor: pointer; /* Add pointer cursor for better UX */
+  }
+  
+  /* Label styling */
+  .checkbox-label {
+    margin-left: 10px; /* Space between checkbox and label */
+    font-size: 16px; /* Font size for label text */
+    color: #333; /* Label text color */
+    cursor: pointer; /* Make the label clickable */
+  }
+  
+  /* Optional: Add hover effect for the label */
+  .checkbox-label:hover {
+    color: #007bff; /* Change color on hover */
+    text-decoration: underline; /* Optional underline on hover */
+  }
+  
+  /* Container for all radio buttons */
+.jaw-locking-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between each radio button option */
+  }
+  
+  /* Style for individual radio button and label */
+  .jaw-locking-option {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Radio button style */
+  .jaw-locking-option input[type="radio"] {
+    width: 20px; /* Radio button size */
+    height: 20px; /* Radio button size */
+    accent-color: #007bff; /* Custom color for modern browsers */
+    margin-right: 8px; /* Space between radio button and label */
+    cursor: pointer; /* Pointer cursor when hovering over radio button */
+  }
+  
+  /* Label style */
+  .jaw-locking-option label {
+    font-size: 16px; /* Font size for label */
+    color: #333; /* Color for label text */
+    cursor: pointer; /* Pointer cursor when hovering over label */
+  }
+  
+  /* Hover effect on label */
+  .jaw-locking-option label:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  /* Container for all checkboxes */
+.other-symptoms-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between each checkbox option */
+  }
+  
+  /* Style for individual checkbox and label */
+  .other-symptom-option {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Checkbox style */
+  .other-symptom-option input[type="checkbox"] {
+    width: 20px; /* Checkbox size */
+    height: 20px; /* Checkbox size */
+    accent-color: #007bff; /* Custom color for modern browsers */
+    margin-right: 8px; /* Space between checkbox and label */
+    cursor: pointer; /* Pointer cursor when hovering over checkbox */
+  }
+  
+  /* Label style */
+  .other-symptom-option label {
+    font-size: 16px; /* Font size for label */
+    color: #333; /* Color for label text */
+    cursor: pointer; /* Pointer cursor when hovering over label */
+  }
+  
+  /* Hover effect on label */
+  .other-symptom-option label:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  /* Styling for the label */
+.jaw-pain-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 20px; /* Space between the label and the slider */
+    color: #333; /* Label color */
+  }
+  
+  /* Styling for the range input (slider) */
+  .jaw-pain-slider {
+    -webkit-appearance: none; /* Remove default styling */
+    width: 100%;
+    height: 8px; /* Thickness of the slider */
+    background: #ddd; /* Background color */
+    border-radius: 5px;
+    outline: none;
+    transition: background 0.3s ease; /* Smooth background transition */
+  }
+  
+  /* Styling for the slider thumb (the draggable part) */
+  .jaw-pain-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #007bff; /* Thumb color */
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease; /* Smooth thumb color transition */
+  }
+  
+  .jaw-pain-slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #007bff; /* Thumb color */
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  /* Hover effect on the thumb */
+  .jaw-pain-slider:hover::-webkit-slider-thumb {
+    background: #0056b3; /* Darker thumb color on hover */
+  }
+  
+  .jaw-pain-slider:hover::-moz-range-thumb {
+    background: #0056b3; /* Darker thumb color on hover */
+  }
+  
+  /* Styling for the slider value text */
+  .slider-value {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px; /* Space between the slider and the value */
+    color: #007bff; /* Value color */
+  }
+  

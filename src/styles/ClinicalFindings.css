@@ -1,0 +1,214 @@
+
+.clinical-heading{
+    font-size:1.3rem;
+    text-align: center;
+    text-shadow: #475569;
+    text-decoration:underline;
+}
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    width: 100%;
+  }
+  
+  .input-label {
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #475569;
+  }
+  
+  .username-input-field {
+    font-size: 14px;
+    height: 20px;
+    border: 1px solid #d7dfe9;
+    background-color: #e2e8f0;
+    color: #333d4c;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+  }  
+  .custom-select {
+    width: 100%;
+    color: #205093;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color:   #e2e8f0;
+    color: #333;
+    cursor: pointer;
+  }
+
+
+  .error-text {
+    color: red;
+    font-size: 0.85em;
+    margin-top: 1px;
+    margin-bottom: 0;
+  }
+
+
+
+
+  /* Container for each checkbox option */
+.checkbox-container {
+  margin-bottom: 15px; /* Space between each checkbox */
+}
+
+/* Styling for the label */
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Styling for the checkbox input */
+.checkbox-input {
+  margin-right: 10px; /* Space between checkbox and text */
+  transform: scale(1.2); /* Make the checkbox slightly bigger */
+  cursor: pointer;
+}
+
+/* Styling for the text next to the checkbox */
+.checkbox-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Hover effect for the label */
+.checkbox-label:hover .checkbox-text {
+  color: #007bff; /* Change text color when hovering over the label */
+}
+
+/* Checkbox when checked */
+.checkbox-input:checked + .checkbox-text {
+  color: #007bff; /* Highlight the label text in blue when the checkbox is checked */
+}
+
+/* Container for each checkbox option */
+.checkbox-container {
+  margin-bottom: 15px; /* Space between each checkbox */
+}
+
+/* Styling for the label */
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Styling for the checkbox input */
+.checkbox-input {
+  margin-right: 10px; /* Space between checkbox and text */
+  transform: scale(1.2); /* Make the checkbox slightly bigger */
+  cursor: pointer;
+}
+
+/* Styling for the text next to the checkbox */
+.checkbox-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Hover effect for the label */
+.checkbox-label:hover .checkbox-text {
+  color: #007bff; /* Change text color when hovering over the label */
+}
+
+/* Checkbox when checked */
+.checkbox-input:checked + .checkbox-text {
+  color: #007bff; /* Highlight the label text in blue when the checkbox is checked */
+}
+
+/* Container for the group of radio buttons */
+.radio-group {
+  display: flex;
+  flex-direction: row; /* Align radio buttons in a horizontal row */
+  gap: 20px; /* Add space between the radio button options */
+  margin-bottom: 15px; /* Add space below the group */
+}
+
+/* Styling for each radio button option */
+.radio-option {
+  display: flex;
+  align-items: center; /* Align the radio button and text */
+  font-size: 16px;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Styling for the radio input */
+.radio-input {
+  margin-right: 10px; /* Space between radio button and text */
+  cursor: pointer;
+  transform: scale(1.2); /* Increase the size of the radio button */
+}
+
+/* Styling for the label text next to the radio button */
+.radio-label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Hover effect for the radio option */
+.radio-option:hover .radio-label {
+  color: #007bff; /* Change the label color on hover */
+}
+
+/* When the radio button is checked, change the label color */
+.radio-input:checked + .radio-label {
+  color: #007bff; /* Highlight the label text when the option is selected */
+}
+
+/* Container for the group of radio buttons */
+.radio-group {
+  display: flex;
+  flex-direction: row; /* Align radio buttons in a horizontal row */
+  gap: 20px; /* Add space between the radio button options */
+  margin-bottom: 15px; /* Add space below the group */
+}
+
+/* Styling for each radio button option */
+.radio-option {
+  display: flex;
+  align-items: center; /* Align the radio button and text */
+  font-size: 16px;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Styling for the radio input */
+.radio-input {
+  margin-right: 10px; /* Space between radio button and text */
+  cursor: pointer;
+  transform: scale(1.2); /* Increase the size of the radio button */
+}
+
+/* Styling for the label text next to the radio button */
+.radio-label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Hover effect for the radio option */
+.radio-option:hover .radio-label {
+  color: #007bff; /* Change the label color on hover */
+}
+
+/* When the radio button is checked, change the label color */
+.radio-input:checked + .radio-label {
+  color: #007bff; /* Highlight the label text when the option is selected */
+}

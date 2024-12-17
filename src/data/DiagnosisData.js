@@ -1,0 +1,23 @@
+export const diagnosisOptions = [
+    { value: 1, label: "TMJ Dysfunction" },
+    { value: 2, label: "Disc displacement" },
+    { value: 3, label: "Arthritis" },
+    { value: 4, label: "Myofascial Pain" },
+    { value: 5, label: "Joint Hypermobility" },
+    { value: 6, label: "Congenital Jaw Deformity" },
+    { value: 7, label: "Anterior Disc Displacement with Reduction" },
+    { value: 8, label: "Anterior Disc Displacement without Reduction" },
+    { value: 9, label: "Degenerative Joint Disease" },
+    { value: 10, label: "Muscle Spasm" },
+    { value: 11, label: "TMJ Dislocation" },
+    { value: 12, label: "TMJ Subluxation" },
+    { value: 13, label: "TMJ Ankylosis" },
+    { value: 14, label: "Osteoarthritis" },
+    { value: 15, label: "Synovitis" },
+    { value: 16, label: "Capsulitis" },
+    { value: 17, label: "Rheumatoid Arthritis" },
+    { value: 18, label: "Tumors (benign/malignant)" },
+    { value: 19, label: "Fracture" },
+    { value: 20, label: "Other" },
+  ];
+  

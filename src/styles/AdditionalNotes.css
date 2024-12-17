@@ -1,0 +1,47 @@
+/* Container for the notes section */
+.notes-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Add spacing below the notes section */
+    margin-top: 20px;
+  }
+  
+  /* Label styling */
+  .notes-label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px; /* Space between label and textarea */
+    color: #333;
+  }
+  
+  /* Textarea styling */
+  .notes-textarea {
+    max-width: 1150px; /* Restrict maximum width */
+    padding: 10px;
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 14px;
+    font-family: "Arial", sans-serif;
+    color: #333;
+    resize: none; /* Disable resizing */
+    outline: none;
+    box-shadow: none; /* Remove default focus outline */
+  }
+  
+  /* Placeholder styling */
+  .notes-textarea::placeholder {
+    color: #aaa; /* Placeholder text color */
+    font-style: italic;
+  }
+  
+  /* Focus styling */
+  .notes-textarea:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.3); /* Add subtle shadow on focus */
+  }
+  
+  /* Add focus styling for keyboard navigation */
+  .notes-textarea:focus-visible {
+    outline: none;
+  }
+  

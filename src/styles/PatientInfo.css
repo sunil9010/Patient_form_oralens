@@ -1,0 +1,90 @@
+
+  .form-container1 {
+    width: 100%;
+    flex-shrink: 0;
+    box-shadow:  0px 4px 10px rgba(0, 0, 0, 0.2),  /* Closest, darker shadow */
+    0px 10px 30px rgba(0, 0, 0, 0.15), /* Mid-level shadow */
+    0px 20px 50px rgba(0, 0, 0, 0.1);
+    padding: 35px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+    
+  }
+
+  .form-container1:hover {
+    transform: translateY(-5px);
+    box-shadow: 
+      0px 8px 15px rgba(0, 0, 0, 0.25),
+      0px 15px 35px rgba(0, 0, 0, 0.2),
+      0px 25px 60px rgba(0, 0, 0, 0.15);
+  }
+  .patient-heading-1{   
+    font-size: 1.3rem;
+    text-shadow: 0px 1px 2px #475569; /* Ensures the shadow effect is clear */
+    background-color: rgba(0, 0, 0, 0.6); /* Black with 60% transparency */
+    color: #fff; /* White text for contrast */
+    padding: 8px 20px; /* Add spacing inside the heading */
+    border-radius: 2px; /* Optional rounded corners */
+    display: inline-block; 
+    width: 100%;
+    margin: 0px;
+    padding-left: 2px;
+    
+}
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    width: 100%;
+  }
+  
+  .input-label {
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #475569;
+  }
+  
+  .username-input-field {
+    font-size: 14px;
+    height: 20px;
+    border: 1px solid #d7dfe9;
+    background-color: #e2e8f0;
+    color: #333d4c;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+  }  
+  .custom-select {
+    width: 100%;
+    color: #205093;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color:   #e2e8f0;
+    color: #333;
+    cursor: pointer;
+  }
+
+
+  .error-text {
+    color: red;
+    font-size: 0.85em;
+    margin-top: 1px;
+    margin-bottom: 0;
+  }
+
+.poster-container{
+  background-image: url("https://res.cloudinary.com/dufyrxyey/image/upload/v1733673135/axefef6m_uzd7p8.png");
+  height: 150px;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+ 
+}

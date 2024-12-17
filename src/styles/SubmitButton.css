@@ -1,0 +1,17 @@
+.button {
+    background: linear-gradient(to right, #007bff, #00d4ff); /* Gradient colors */
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 30px; /* Fully rounded corners */
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    text-align: center;
+  }
+  .button:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  .button-container{
+    text-align: center;
+  }

@@ -1,0 +1,54 @@
+
+  .patient-heading{
+    font-size:1.3rem;
+    text-align: center;
+    text-shadow: #475569;
+    text-decoration:underline;
+}
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    width: 100%;
+  }
+  
+  .input-label {
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #475569;
+  }
+  
+  .username-input-field {
+    font-size: 14px;
+    height: 20px;
+    border: 1px solid #d7dfe9;
+    background-color: #e2e8f0;
+    color: #333d4c;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+  }  
+  .custom-select {
+    width: 100%;
+    color: #205093;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color:   #e2e8f0;
+    color: #333;
+    cursor: pointer;
+  }
+
+
+  .error-text {
+    color: red;
+    font-size: 0.85em;
+    margin-top: 1px;
+    margin-bottom: 0;
+  }
+
