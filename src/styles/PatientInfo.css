@@ -88,3 +88,9 @@
   justify-content: flex-start;
  
 }
+@media screen and (min-width:900px){
+  .poster-container{
+    height: 270px;
+    background-image: url("https://static.india.com/wp-content/uploads/2022/08/hospital-registration.jpg");
+  }
+}
